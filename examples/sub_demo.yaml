@@ -1,0 +1,19 @@
+# Вычитание: ячейки 300 и 301 содержат 100 и 58
+# 302 = 300 - 301 = 42; 303 = 301 - 300 = -42;
+# 304 = 300 - 300 = 0; 305 = 302 - 303 = 84
+- load_const: 100
+- write: 300
+- load_const: 58
+- write: 301
+- load_const: 301
+- sub: 300
+- write: 302
+- load_const: 300
+- sub: 301
+- write: 303
+- load_const: 300
+- sub: 300
+- write: 304
+- load_const: 303
+- sub: 302
+- write: 305

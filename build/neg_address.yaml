@@ -1,0 +1,7 @@
+- load_const: 100
+- write: 300
+- load_const: 58
+- write: 301
+- load_const: 300
+- sub: 301
+- read

@@ -1,0 +1,28 @@
+# Копирование массива: ячейки 200..204 -> 205..209
+# Сначала массив записывается в память командами load_const и
+# write, затем каждый элемент копируется: адрес -> read -> write.
+- load_const: 11
+- write: 200
+- load_const: 22
+- write: 201
+- load_const: 33
+- write: 202
+- load_const: 44
+- write: 203
+- load_const: 55
+- write: 204
+- load_const: 200
+- read
+- write: 205
+- load_const: 201
+- read
+- write: 206
+- load_const: 202
+- read
+- write: 207
+- load_const: 203
+- read
+- write: 208
+- load_const: 204
+- read
+- write: 209
