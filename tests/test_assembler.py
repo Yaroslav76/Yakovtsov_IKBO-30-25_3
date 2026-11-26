@@ -5,8 +5,8 @@ import os
 import unittest
 
 import helpers
-from assembler import AssemblerError, main, parse_program, read_source
-from ir import Instruction
+from src.assembler import AssemblerError, main, parse_program, read_source
+from src.ir import Instruction
 
 SPEC_FIELDS = ["A=63, B=61", "A=7", "A=3, B=629", "A=44, B=975"]
 SPEC_TEXT = "- load_const: 61\n- read\n- write: 629\n- sub: 975\n"

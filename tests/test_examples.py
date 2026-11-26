@@ -3,9 +3,9 @@ import unittest
 
 import helpers
 import make_examples
-from assembler import parse_program
-from codec import encode_program
-from machine import Machine
+from src.assembler import parse_program
+from src.codec import encode_program
+from src.machine import Machine
 
 LENGTH = make_examples.VECTOR_LENGTH
 FIRST = make_examples.FIRST_VECTOR

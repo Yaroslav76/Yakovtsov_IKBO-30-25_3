@@ -2,9 +2,9 @@
 import unittest
 
 import helpers
-from assembler import parse_program
-from codec import encode, encode_program, format_bytes
-from ir import Instruction
+from src.assembler import parse_program
+from src.codec import encode, encode_program, format_bytes
+from src.ir import Instruction
 
 SPEC_BYTES = [
     (Instruction("load_const", 63, 61), "0xBF, 0x1E, 0x00"),

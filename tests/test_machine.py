@@ -2,9 +2,9 @@
 import unittest
 
 import helpers
-from assembler import parse_program
-from codec import encode_program
-from machine import MEMORY_SIZE, Machine, MachineError, wrap
+from src.assembler import parse_program
+from src.codec import encode_program
+from src.machine import MEMORY_SIZE, Machine, MachineError, wrap
 
 
 def run(text):
